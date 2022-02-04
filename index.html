@@ -6,29 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Clipboard.com</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <article id="article-1">
       <img src="images/logo.svg" alt="Clipboard logo" id="article-1-logo" />
 
-      <h2>A history of everything you copy</h2>
+      <h2 id="main-header">A history of everything you copy</h2>
 
       <p id="article-1-p-1">
         Clipboard allows you to track and organize everything you copy.
         Instantly access your clipboard on all your devices.
       </p>
 
-      <div id="article-1-buttons">
-        <button id="article-1-button-1">Download for iOS</button>
-        <button id="article-1-button-2">Download for Mac</button>
+      <div class="common-buttons">
+        <button class="green-button common-button-1-2">
+          <p class="common-buuton-p">
+            Download for iOS
+          </p>
+        </button>
+        <button class="blue-button common-button-1-2">
+          <p class="common-buuton-p">
+            Download for Mac
+          </p>
+        </button>
       </div>
 
-      <h3>Keep track of your snippets</h3>
+      <h3 class="header-1">Keep track of your snippets</h3>
 
-      <p id="article-1-p-2">
+      <p class="header-1-p">
         Clipboard instantly stores any item you copy in the cloud, meaning you
         can access your snippets immediately on your devices. Our Mac and iOS
         apps will help you organize everything.
@@ -36,15 +47,17 @@
     </article>
 
     <article id="article-2">
-      <img
-        src="images/image-computer.png"
-        alt="Image of Mac"
-        id="article-2-Mac"
-      />
+      <div id="article-2-image">
+        <img
+          src="images/image-computer.png"
+          alt="Image of Mac"
+          id="article-2-Mac"
+        />
+      </div>
 
       <div id="article-2-rightside">
         <div class="article-2-options">
-          <h4>Quick Search</h4>
+          <h4 class="header-2">Quick Search</h4>
           <p>
             Easily your snippets by content, category, web-address, application,
             and more.
@@ -52,23 +65,23 @@
         </div>
 
         <div class="article-2-options">
-          <h4>iCloud Sync</h4>
+          <h4 class="header-2">iCloud Sync</h4>
           <p>Instantly saves and syncs snippets across all your devices.</p>
         </div>
 
         <div class="article-2-options">
-          <h4>Complete History</h4>
+          <h4 class="header-2">Complete History</h4>
           <p>Retrieve any snippets form the moment you started using app.</p>
         </div>
       </div>
     </article>
 
     <article id="article-3">
-      <h3>Access Clipboard anywhere</h3>
+      <h3 class="header-1" id="article-3-header">Access Clipboard anywhere</h3>
 
-      <p>
+      <p class="header-1-p">
         Whether you're on the go, or at your computer, you can access all your
-        Clipboard snippets in a few clicks.
+        Clipboard snippets in a few simple clicks.
       </p>
 
       <img
@@ -79,36 +92,35 @@
     </article>
 
     <aside id="aside-1">
-      <h3>Supercharge your workflow</h3>
-      <p>We've got the tools to boost your productivity</p>
+      <h3 class="header-1" id="aside-1-header">Supercharge your workflow</h3>
+      <p class="header-1-p">We've got the tools to boost your productivity</p>
 
       <div id="aside-1-list">
         <div class="aside-1-option">
           <img src="images/icon-blacklist.svg" alt="list-icon" />
 
-          <h4>Create blacklists</h4>
+          <h4 class="header-2">Create blacklists</h4>
 
-          <p>
-            Ensure sensitive information never makes its way to your clipboard
-            by excluding certain sources.
+          <p class="header-2-p" >
+            Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
           </p>
         </div>
 
-        <div class="aside-1-option">
+        <div class="aside-1-option ">
           <img src="images/icon-text.svg" alt="Plain text icon" />
 
-          <h4>Plain text snippets</h4>
+          <h4 class="header-2">Plain text snippets</h4>
 
-          <p>
+          <p class="header-2-p special-case">
             Remove unwanted formatting from copied text for a consistent look.
           </p>
         </div>
-        <div class="aside-1-option">
+        <div class="aside-1-option ">
           <img src="images/icon-preview.svg" alt="preview icon" />
 
-          <h4>Sneak preview</h4>
+          <h4 class="header-2 ">Sneak preview</h4>
 
-          <p>
+          <p class="header-2-p special-case">
             Quick preview of all snippets on your Clipboard for easy access.
           </p>
         </div>
@@ -124,16 +136,24 @@
     </aside>
 
     <aside id="aside-2">
-      <h3>Clipboard for iOS and Mac OS</h3>
+      <h3 class="header-1">Clipboard for iOS and Mac OS</h3>
 
-      <p>
+      <p class="header-1-p">
         Available for free on the App Store. Download for Mac or iOS , sync with
         iCloud and you're ready to start adding to your clipboard.
       </p>
 
-      <div id="aside-2-button">
-        <button id="aside-2-button-1">Download for iOS</button>
-        <button id="aside-2-button-2">Download for Mac</button>
+      <div class="common-buttons">
+        <button class="green-button common-button-1-2">
+          <p class="common-buuton-p">
+            Download for iOS
+          </p>
+        </button>
+        <button class="blue-button common-button-1-2">
+          <p class="common-buuton-p">
+            Download for Mac
+          </p>
+        </button>
       </div>
     </aside>
 

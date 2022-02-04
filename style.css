@@ -1,114 +1,226 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Bai Jamjuree', sans-serif;
-}
-/* body::after{
-    content: '';
-    background-image: image();
-} */
-#article-1{
-    width: 100vw;
-    border: 2px solid red;
-    background-image: url("images/bg-header-desktop.png");
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body {
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
-
-#article-2{
-    display: flex;
+#main-header {
+  color: hsl(201, 9%, 31%);
 }
 
-#article-2 img{
-    border: 3px solid green;
-    flex-basis: 40%;
+#article-1 {
+  width: 100vw;
+  border-top: 3.5px solid white;
+  background-image: url("images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-#article-2-rightside{
-    flex-basis: 60%;
-    border: 3px solid blue;
+#article-1-logo {
+  margin: 8rem 0rem 3.5rem 0rem;
 }
 
-#article-3{
-    border: 5px solid black;
-    display: flex;
-    flex-direction: column;
+#article-1 h2 {
+  font-size: 44.5px;
+  margin: 0px 0px 1rem 0px;
 }
 
-#aside-1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border: 5px dashed red;
+#article-1-p-1 {
+  width: 49%;
+  text-align: center;
+  font-size: 18px;
+  color: hsl(201, 11%, 66%);
+  line-height: 1.5;
+  font-size: 20px;
+  text-align: center;
+  width: 50%;
+  word-spacing: 0.1rem;
 }
 
-#aside-1-list{
-    border: 3px dashed red;
-    width: 80%;
-    display: grid;
-    grid-template-columns: auto auto auto;
+.common-buttons {
+  width: 35%;
+  margin: 3rem 0px 10rem 0px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.aside-1-option{
-    border: 3px dashed black;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    width: 94%;
-    /* margin: 15% 5% 15% 5%; */
-    text-align: center;
-
+.common-buuton-p {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18.8px;
+  color: hsla(0, 0%, 100%, 0.829);
+  font-weight: 600;
+}
+.green-button {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 2px 2px 1px hsl(171, 67%, 39%);
 }
 
-#aside-1-companies{
-    width: 80%;
-    border: 3px dashed red;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.blue-button {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 2px 2px 1px hsl(233, 65%, 59%);
 }
 
-
-#aside-2{
-    border: 5px dashed blue;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.common-button-1-2 {
+  border: none;
+  width: 45%;
+  padding: 0.9rem 1rem 0.9rem 1rem;
+  border-radius: 5rem;
 }
 
-
-footer{
-    display: flex;
-    align-items: center;
-    justify-content:space-evenly;
+#article-2 {
+  display: flex;
+  margin: 4.5rem 0px 0px 0px;
 }
 
-#footer-logo{
-    height: 70px;
-    width: 70px;
+#article-2-image {
+  flex-basis: 50%;
+  position: relative;
+  height: 19vh;
 }
 
-#footer-options{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    border: 3px dashed blue;
-    width: 50%;
-    
+#article-2-image img {
+  position: absolute;
+  left: -40px;
+}
+#article-2-rightside {
+  right: 0px;
 }
 
-#footer-icons{
-    
-    width: 10%;
-    display: flex;
-    justify-content: space-between;
-    border: 3px dashed blue;
+.article-2-options {
+  width: 46%;
+  margin: 3rem 2rem 0rem 6.5rem;
+  font-size: 16px;
+  color: hsl(203, 20%, 76%);
+  font-weight: 600;
+  word-spacing: 0.1rem;
+  line-height: 2;
+}
+
+.header-1 {
+  font-size: 2.2rem;
+  color: hsla(212, 10%, 33%, 0.877);
+}
+
+.header-1-p {
+  text-align: center;
+  width: 49%;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 600;
+  color: hsl(203, 16%, 77%);
+}
+
+.header-2 {
+  color: hsl(201, 9%, 31%);
+  margin: 2.3rem 0px 0.8rem 0px;
+  font-size: 23px;
+}
+
+#article-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#article-3-header {
+  margin: 0px 0px 1.3rem 0px;
+}
+
+#article-3 img {
+  margin: 6.5rem 0rem 4rem 0rem;
+}
+
+#aside-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#aside-1-header {
+  margin: 0px 0px 1rem 0px;
+}
+
+#aside-1-list {
+  width: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 5rem 0px 0px 0px;
+}
+
+.aside-1-option {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  text-align: center;
+}
+
+.special-case {
+  margin: 0px 0px 1.9rem 0px;
+}
+
+.header-2-p {
+  font-size: 16.3px;
+  color: hsl(200, 20%, 79%);
+  line-height: 2;
+  font-weight: 600;
+}
+
+#aside-1-companies {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem 0px 10rem 0px;
+}
+
+#aside-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#aside-2 .header-1 {
+  margin-bottom: 1rem;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 4vh;
+  background-color: hsla(202, 11%, 66%, 0.089);
+  margin-top: 1rem;
+}
+
+#footer-logo {
+  height: 55px;
+  width: 55px;
+}
+
+#footer-options {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 40%;
+  height: 50%;
+  color: hsl(203, 6%, 55%);
+  font-weight: 600;
+  font-size: 18px;
+  margin: 1.8rem 2.8rem 0px 0px;
+}
+
+#footer-icons {
+  width: 9%;
+  display: flex;
+  justify-content: space-between;
 }
