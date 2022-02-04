@@ -43,6 +43,10 @@ body {
   word-spacing: 0.1rem;
 }
 
+#article-1 .header-1{
+  margin-bottom: 1rem;
+}
+
 .common-buttons {
   width: 35%;
   margin: 3rem 0px 10rem 0px;
@@ -219,8 +223,44 @@ footer {
   margin: 1.8rem 2.8rem 0px 0px;
 }
 
+footer p{
+  display: inline;
+}
+
 #footer-icons {
   width: 9%;
   display: flex;
   justify-content: space-between;
+}
+
+#facebook:hover{
+  fill: #4267B2;
+  cursor: pointer;
+}
+
+#twitter:hover{
+  cursor: pointer;
+  fill: #00acee;
+}
+
+#instagram:hover{
+  cursor: pointer;
+  fill: #bc2a8d;
+}
+
+#footer-options span p:hover{
+  color:hsl(171, 66%, 44%) ;
+  cursor: pointer;
+}
+
+.green-button:hover{
+  background-color:  hsl(171, 66%, 48%);
+  border: none;
+  cursor: pointer;
+}
+
+.blue-button:hover{
+  border: none;
+  background-color: hsl(233, 92%, 74%);
+  cursor: pointer;
 }
