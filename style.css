@@ -100,13 +100,11 @@ body {
   flex-basis: 50%;
   position: relative;
   height: 15.1vh;
-  border: 2px solid red;
 }
 
 #article-2-image img {
   position: absolute;
   left: -40px;
-  border: 2px solid blue;
 }
 #article-2-rightside {
   right: 0px;
