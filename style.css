@@ -398,10 +398,7 @@ footer p{
   }
   #aside-1-companies img{
     display: inline-block;
-    -moz-transform: scale(0.85);
-  }
-
-  #aside-2{
+    transform: scale(0.85);
   }
   
   #aside-2 .common-buttons{
