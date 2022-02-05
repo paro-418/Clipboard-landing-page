@@ -99,12 +99,14 @@ body {
 #article-2-image {
   flex-basis: 50%;
   position: relative;
-  height: 19vh;
+  height: 15.1vh;
+  border: 2px solid red;
 }
 
 #article-2-image img {
   position: absolute;
   left: -40px;
+  border: 2px solid blue;
 }
 #article-2-rightside {
   right: 0px;
@@ -135,7 +137,7 @@ body {
 }
 
 #article-3-header {
-  margin: 0px 0px 1.3rem 0px;
+  margin: 7.8rem 0px 1.3rem 0px;
 }
 
 #article-3 img {
@@ -361,6 +363,10 @@ footer p{
   #article-3{
     margin-top: 10rem;
   }
+
+  #article-3 .header-1{
+    margin: 0rem 0px 1rem 0px;
+  }
   
   .header-1{
     text-align: center;
@@ -396,7 +402,6 @@ footer p{
     justify-content: space-between;
     height: 10vh;
     width: 100%;
-    /* border: 1px solid red; */
     margin: 7rem 0rem 0rem 0rem;
   }
   #aside-1-companies img{
